@@ -1,4 +1,4 @@
-package Main;
+package Main.CloudToMongo;
 
 import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
 import org.eclipse.paho.client.mqttv3.MqttCallback;
@@ -10,8 +10,6 @@ import com.mongodb.*;
 import com.mongodb.util.JSON;
 
 import java.util.*;
-import java.util.Vector;
-import java.io.File;
 import java.io.*;
 import javax.swing.*;
 import java.awt.*;
@@ -73,7 +71,7 @@ public class CloudToMongo  implements MqttCallback {
             mongo_collection = p.getProperty("mongo_collection");
         } catch (Exception e) {
             System.out.println("Error reading CloudToMongo.ini file " + e);
-            JOptionPane.showMessageDialog(null, "The CloudToMongo.inifile wasn't found.", "CloudToMongo", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "The CloudToMongo.inifile wasn't found.", "Main/CloudToMongo", JOptionPane.ERROR_MESSAGE);
         }
         new CloudToMongo().connecCloud();
         new CloudToMongo().connectMongo();
