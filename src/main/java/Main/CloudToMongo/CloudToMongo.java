@@ -54,7 +54,28 @@ public class CloudToMongo  implements MqttCallback {
         });
     }
 
+    public static void textGui(){
+        System.out.println("------------- Cloud to Mongo App -------------");
+        System.out.println("1. Inserir dados de movimento");
+        System.out.println("2. Inserir dados de temperatura");
+        System.out.print("Opção: ");
+    }
+
+    public static void userChoice(){
+        Scanner s = new Scanner(System.in);
+        switch (s.nextInt()){
+            case 1:
+                cloud_topic = "pisid_mazemov";
+                break;
+            case 2:
+                cloud_topic = "pisid_mazetemp";
+                break;
+        }
+    }
+
     public static void main(String[] args) {
+        textGui();
+        userChoice();
         createWindow();
         try {
             Properties p = new Properties();
@@ -64,7 +85,7 @@ public class CloudToMongo  implements MqttCallback {
             mongo_password = p.getProperty("mongo_password");
             mongo_replica = p.getProperty("mongo_replica");
             cloud_server = p.getProperty("cloud_server");
-            cloud_topic = p.getProperty("cloud_topic");
+            //cloud_topic = p.getProperty("cloud_topic");
             mongo_host = p.getProperty("mongo_host");
             mongo_database = p.getProperty("mongo_database");
             mongo_authentication = p.getProperty("mongo_authentication");
@@ -107,7 +128,7 @@ public class CloudToMongo  implements MqttCallback {
             mongocol.insert(document_json);
             documentLabel.append(c.toString()+"\n");
         } catch (Exception e) {
-            System.out.println(e);
+
         }
     }
 

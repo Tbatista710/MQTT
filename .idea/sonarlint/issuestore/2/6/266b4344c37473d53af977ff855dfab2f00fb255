@@ -1,78 +1,0 @@
-
-E
-java:S16044"(Make this anonymous inner class a lambda(ğÁËî8“á¾Îú0
-M
-java:S1153V"1Directly append the argument of String.valueOf().(”…â}8”á¾Îú0
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°€Òşÿÿÿÿ8œĞ¿Îú0
-k
-java:S2095b"IUse try-with-resources or close this "MongoClient" in a "finally" clause.(õÖÀ¢ûÿÿÿÿ8¡ô¬Ïú0
-j
-java:S2095?"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(§ÍÓ½8Ïá¾Îú0
-w
-java:S3008"URename this field "mongo_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¬‚¾ıÿÿÿÿ8Ğá¾Îú0
-u
-java:S3008"YRename this field "mongo_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹…Š8Ğá¾Îú0
-u
-java:S3008"XRename this field "mongo_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ó†ü8Ğá¾Îú0
-y
-java:S3008"WRename this field "cloud_server" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôĞçÍÿÿÿÿÿ8Ñá¾Îú0
-s
-java:S3008"VRename this field "cloud_topic" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¶°Ô8Ñá¾Îú0
-r
-java:S3008"URename this field "mongo_host" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ›Ï—8Ñá¾Îú0
-u
-java:S3008"XRename this field "mongo_replica" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åö8Ñá¾Îú0
-{
-java:S3008 "YRename this field "mongo_database" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÆË¹ıÿÿÿÿ8Ñá¾Îú0
-x
-java:S3008!"[Rename this field "mongo_collection" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óŒ¬Û8Ñá¾Îú0
-
-java:S3008""_Rename this field "mongo_authentication" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿî”ıÿÿÿÿ8Ñá¾Îú0
-
-java:S1186u"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯ô¢8Ñá¾Îú0
-
-java:S1186y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(£Óˆõ8Òá¾Îú0
-B
-java:S2129" Remove this "String" constructor(™¬‚¾ıÿÿÿÿ8Öá¾Îú0
-<
-java:S2129" Remove this "String" constructor(¹…Š8×á¾Îú0
-=
-java:S2129" Remove this "String" constructor(¯Ó†ü8×á¾Îú0
-B
-java:S2129" Remove this "String" constructor(ôĞçÍÿÿÿÿÿ8×á¾Îú0
-=
-java:S2129" Remove this "String" constructor( ¶°Ô8Øá¾Îú0
-=
-java:S2129" Remove this "String" constructor(æ›Ï—8Øá¾Îú0
-=
-java:S2129" Remove this "String" constructor(åö8Ùá¾Îú0
-B
-java:S2129 " Remove this "String" constructor(ŠÆË¹ıÿÿÿÿ8Ùá¾Îú0
-=
-java:S2129!" Remove this "String" constructor(óŒ¬Û8Ùá¾Îú0
-B
-java:S2129"" Remove this "String" constructor(Ÿî”ıÿÿÿÿ8Ùá¾Îú0
-f
-java:S3252("IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8Üá¾Îú0
-{
-java:S3252+"YUse static access with "javax.swing.ScrollPaneConstants" for "VERTICAL_SCROLLBAR_ALWAYS".(ìıÓÙûÿÿÿÿ8Şá¾Îú0
-}
-java:S3252+"[Use static access with "javax.swing.ScrollPaneConstants" for "HORIZONTAL_SCROLLBAR_ALWAYS".(ìıÓÙûÿÿÿÿ8Şá¾Îú0
-U	java:S106K"9Replace this use of System.out or System.err by a logger.(ü€é8èá¾Îú0
-;
-java:S2119U"Save and re-use this "Random".(ïÛÍ¬8ëá¾Îú0
-Y
-java:S1854`"<Remove this useless assignment to local variable "mongoURI".(¤Ò¥¶8íá¾Îú0
-=
-java:S2129`" Remove this "String" constructor(¤Ò¥¶8íá¾Îú0
-a
-java:S1117b"?Rename "mongoClient" which hides the field declared at line 22.(õÖÀ¢ûÿÿÿÿ8²ô¬Ïú0
-S
-java:S2696c"6Make the enclosing method "static" or remove this set.(›•ĞÔ8ÚáœÏú0
-S
-java:S2696d"6Make the enclosing method "static" or remove this set.(¶§õß8ÛáœÏú0
-Z	java:S106p"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ßé³Ïú0
-O
-java:S1128"-Remove this unused import 'java.util.Vector'.(ÿŒ¸Áÿÿÿÿÿ8’Í´Ïú0
-F
-java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8’Í´Ïú0
