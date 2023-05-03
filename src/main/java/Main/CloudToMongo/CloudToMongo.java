@@ -85,7 +85,6 @@ public class CloudToMongo  implements MqttCallback {
             mongo_password = p.getProperty("mongo_password");
             mongo_replica = p.getProperty("mongo_replica");
             cloud_server = p.getProperty("cloud_server");
-            //cloud_topic = p.getProperty("cloud_topic");
             mongo_host = p.getProperty("mongo_host");
             mongo_database = p.getProperty("mongo_database");
             mongo_authentication = p.getProperty("mongo_authentication");
